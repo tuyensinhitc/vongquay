@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vòng Quay May Mắn ITC</title>
+  <link rel="stylesheet" href="css/hc-canvas-luckwheel.css" />
+  <link rel="stylesheet" href="css/custom-styles.css" />
+  <link href="./images/hengaplai.png" rel="icon" type="image/x-icon" />
+</head>
+
+<body class="bg">
+  <div id="content" class="container">
+    <div id="post">
+      <div class="wrapper" id="wrapper">
+        <section id="luckywheel" class="hc-luckywheel">
+          <div class="hc-luckywheel-container">
+            <canvas class="hc-luckywheel-canvas" width="500" height="500">Vòng Xoay May Mắn</canvas>
+          </div>
+          <a class="hc-luckywheel-btn" href="javascript:;" id="spinButton">Xoay</a>
+        </section>
+      </div>
+      <div class="prize-form-modal" id="prizeFormModal">
+        <div class="prize-form-content">
+          <h2>🎉 Chúc mừng bạn 🎉</h2>
+          <div class="prize-display-box" id="prizeDisplayBox"></div>
+
+          <form id="winnerForm">
+            <div class="form-group">
+              <label for="fullName">Họ và tên *</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Nguyễn Văn A">
+            </div>
+
+            <div class="form-group">
+              <label for="phoneNumber">Số điện thoại *</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber" required
+                placeholder="Bạn ghi chính xác số điện thoại để Admin có thể liên hệ nhận thưởng nhé"
+                pattern="[0-9]{10,11}">
+            </div>
+
+            <div class="form-group">
+              <label for="userAddress">Địa chỉ *</label>
+              <textarea id="userAddress" name="userAddress" required
+                placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành phố"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="button" class="form-btn btn-cancel" id="cancelFormBtn">Đóng</button>
+              <button type="submit" class="form-btn btn-submit">Gửi thông tin</button>
+            </div>
+          </form>
+
+          <div class="form-loading" id="formLoading">
+            <div class="form-spinner"></div>
+            <p style="margin-top: 10px; color: #666;">Đang gửi...</p>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+      <script src="js/hc-canvas-luckwheel.js"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>
