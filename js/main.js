@@ -54,7 +54,7 @@ var prizes = [
         percentpage: 0.00
     },
     {
-        text: "Học bổng 50%",
+        text: "Học bổng 40%",
         img: "images/50.png",
         percentpage: 0.020
     },
