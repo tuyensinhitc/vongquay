@@ -31,17 +31,17 @@ var prizes = [
     {
         text: "Thẻ điện thoại 10K",
         img: "images/thecao10k.png",
-        percentpage: 0.25
+        percentpage: 0.29
     },
     {
         text: "Học bổng 20%",
         img: "images/20.png",
-        percentpage: 0.09
+        percentpage: 0.05
     },
     {
         text: "Thẻ điện thoại 20K",
         img: "images/thecao20k.png",
-        percentpage: 0.15
+        percentpage: 0.19
     },
     {
         text: "Học bổng 30%",
