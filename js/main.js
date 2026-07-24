@@ -46,7 +46,7 @@ var prizes = [
     {
         text: "Học bổng 30%",
         img: "images/30.png",
-        percentpage: 0.04
+        percentpage: 0.00
     },
     {
         text: "Thẻ điện thoại 30K",
