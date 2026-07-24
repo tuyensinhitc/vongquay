@@ -16,7 +16,7 @@ var prizes = [
     {
         text: "Học bổng 10%",
         img: "images/10.png",
-        percentpage: 0.23
+        percentpage: 0.50
     },
     {
         text: "Thẻ điện thoại 200K",
@@ -26,22 +26,22 @@ var prizes = [
     {
         text: "Học bổng 15%",
         img: "images/15.png",
-        percentpage: 0.15
+        percentpage: 0.35
     },
     {
         text: "Thẻ điện thoại 10K",
         img: "images/thecao10k.png",
-        percentpage: 0.29
+        percentpage: 0.00
     },
     {
         text: "Học bổng 20%",
         img: "images/20.png",
-        percentpage: 0.05
+        percentpage: 0.13
     },
     {
         text: "Thẻ điện thoại 20K",
         img: "images/thecao20k.png",
-        percentpage: 0.19
+        percentpage: 0.00
     },
     {
         text: "Học bổng 30%",
@@ -51,17 +51,17 @@ var prizes = [
     {
         text: "Thẻ điện thoại 30K",
         img: "images/thecao30k.png",
-        percentpage: 0.08
+        percentpage: 0.00
     },
     {
         text: "Học bổng 50%",
         img: "images/50.png",
-        percentpage: 0.005
+        percentpage: 0.020
     },
     {
         text: "Thẻ điện thoại 50K",
         img: "images/thecao50k.png",
-        percentpage: 0.005
+        percentpage: 0.00
     },
 
 ];
